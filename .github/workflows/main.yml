@@ -16,6 +16,6 @@ jobs:
     - name: Run
       uses: coactions/setup-xvfb@main
       with:
-        run: dotnet run
+        run: dotnet Program.cs
       env: 
         CONF: ${{ secrets.CONF }}
